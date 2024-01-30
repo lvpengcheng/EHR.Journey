@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace />
+        <AssemblyName>EHR.Journey.CAP</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Authorization.Abstractions" />
+        <PackageReference Include="Volo.Abp.Core" />
+        <PackageReference Include="Volo.Abp.EventBus" />
+        <PackageReference Include="DotNetCore.CAP" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EHR.Journey.Localization\EHR.Journey.Localization.csproj" />
+    </ItemGroup>
+</Project>

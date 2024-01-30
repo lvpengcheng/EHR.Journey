@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace />
+        <AssemblyName>EHR.Journey.CAP.EntityFrameworkCore</AssemblyName>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.EntityFrameworkCore" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\EHR.Journey.CAP\EHR.Journey.CAP.csproj" />
+    </ItemGroup>
+</Project>

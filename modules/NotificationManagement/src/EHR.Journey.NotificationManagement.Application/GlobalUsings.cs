@@ -1,0 +1,29 @@
+// Global using directives
+
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using AutoMapper;
+global using EHR.Journey.NotificationManagement.Hubs;
+global using EHR.Journey.NotificationManagement.Localization;
+global using EHR.Journey.NotificationManagement.Notifications;
+global using EHR.Journey.NotificationManagement.Notifications.Aggregates;
+global using EHR.Journey.NotificationManagement.Notifications.LocalEvents;
+global using EHR.Journey.NotificationManagement.Notifications.Dtos;
+global using EHR.Journey.NotificationManagement.Notifications.Enums;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.SignalR;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using Volo.Abp;
+global using Volo.Abp.Application;
+global using Volo.Abp.Application.Dtos;
+global using Volo.Abp.Application.Services;
+global using Volo.Abp.AspNetCore.SignalR;
+global using Volo.Abp.Auditing;
+global using Volo.Abp.AutoMapper;
+global using Volo.Abp.DependencyInjection;
+global using Volo.Abp.EventBus;
+global using Volo.Abp.Modularity;
+global using Volo.Abp.Users;

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>EHR.Journey.FileManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
+        <PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+        <ProjectReference Include="..\EHR.Journey.FileManagement.Application.Contracts\EHR.Journey.FileManagement.Application.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

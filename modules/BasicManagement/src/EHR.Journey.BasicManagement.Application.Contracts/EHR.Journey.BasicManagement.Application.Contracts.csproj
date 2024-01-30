@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey.BasicManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magicodes.IE.Excel" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.Contracts" />
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.Authorization" />
+    <PackageReference Include="Volo.Abp.Account.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.Identity.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" />
+    <ProjectReference Include="..\EHR.Journey.BasicManagement.Domain.Shared\EHR.Journey.BasicManagement.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

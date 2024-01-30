@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  
+
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\modules\BasicManagement\src\EHR.Journey.BasicManagement.HttpApi.Client\EHR.Journey.BasicManagement.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\modules\DataDictionaryManagement\src\EHR.Journey.DataDictionaryManagement.HttpApi.Client\EHR.Journey.DataDictionaryManagement.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\modules\NotificationManagement\src\EHR.Journey.NotificationManagement.HttpApi.Client\EHR.Journey.NotificationManagement.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\modules\LanguageManagement\src\EHR.Journey.LanguageManagement.HttpApi.Client\EHR.Journey.LanguageManagement.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\EHR.Journey.Application.Contracts\EHR.Journey.Application.Contracts.csproj" />
+  </ItemGroup>
+
+ 
+
+</Project>

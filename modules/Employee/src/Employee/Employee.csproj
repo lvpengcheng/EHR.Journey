@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.7" />
+    <PackageReference Include="HangFire.Redis" Version="2.0.1" />
+    <PackageReference Include="Hangfire.Redis.StackExchange" Version="1.9.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Senparc.Weixin.MP" Version="16.20.4" />
+    <PackageReference Include="Senparc.Weixin.MP.Middleware" Version="1.1.1" />
+    <PackageReference Include="Senparc.Weixin.Work.Middleware" Version="1.1.1" />
+    <PackageReference Include="Senparc.Weixin.WxOpen" Version="3.17.4" />
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\frameworks\src\EHR.Journey.Core\EHR.Journey.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\services\src\EHR.Journey.Domain\EHR.Journey.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

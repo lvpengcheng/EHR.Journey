@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\modules\BasicManagement\src\EHR.Journey.BasicManagement.HttpApi\EHR.Journey.BasicManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\..\..\modules\DataDictionaryManagement\src\EHR.Journey.DataDictionaryManagement.HttpApi\EHR.Journey.DataDictionaryManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\..\..\modules\NotificationManagement\src\EHR.Journey.NotificationManagement.HttpApi\EHR.Journey.NotificationManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\..\..\modules\LanguageManagement\src\EHR.Journey.LanguageManagement.HttpApi\EHR.Journey.LanguageManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\EHR.Journey.Application.Contracts\EHR.Journey.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
+  </ItemGroup>
+
+</Project>

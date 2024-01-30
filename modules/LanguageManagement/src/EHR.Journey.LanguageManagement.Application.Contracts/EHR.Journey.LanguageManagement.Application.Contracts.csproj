@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey.LanguageManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.Authorization" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EHR.Journey.LanguageManagement.Domain.Shared\EHR.Journey.LanguageManagement.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

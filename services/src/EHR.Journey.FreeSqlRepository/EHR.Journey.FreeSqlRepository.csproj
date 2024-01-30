@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FreeSql" />
+        <PackageReference Include="FreeSql.Provider.MysqlConnector" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\EHR.Journey.Domain\EHR.Journey.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

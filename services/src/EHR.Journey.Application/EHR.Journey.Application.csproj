@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>EHR.Journey</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\modules\BasicManagement\src\EHR.Journey.BasicManagement.Application\EHR.Journey.BasicManagement.Application.csproj" />
+        <ProjectReference Include="..\..\..\modules\DataDictionaryManagement\src\EHR.Journey.DataDictionaryManagement.Application\EHR.Journey.DataDictionaryManagement.Application.csproj" />
+        <ProjectReference Include="..\..\..\modules\Employee\src\Employee\Employee.csproj" />
+        <ProjectReference Include="..\..\..\modules\NotificationManagement\src\EHR.Journey.NotificationManagement.Application\EHR.Journey.NotificationManagement.Application.csproj" />
+        <ProjectReference Include="..\..\..\modules\LanguageManagement\src\EHR.Journey.LanguageManagement.Application\EHR.Journey.LanguageManagement.Application.csproj" />
+        <ProjectReference Include="..\EHR.Journey.Domain\EHR.Journey.Domain.csproj" />
+        <ProjectReference Include="..\EHR.Journey.Application.Contracts\EHR.Journey.Application.Contracts.csproj" />
+        <ProjectReference Include="..\EHR.Journey.FreeSqlRepository\EHR.Journey.FreeSqlRepository.csproj" />
+    </ItemGroup>
+
+</Project>

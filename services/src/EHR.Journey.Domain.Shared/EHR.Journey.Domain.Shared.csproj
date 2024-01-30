@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>EHR.Journey</RootNamespace>
+        <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Localization\Journey\*.json" />
+        <Content Remove="Localization\Journey\*.json" />
+
+
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\modules\BasicManagement\src\EHR.Journey.BasicManagement.Domain.Shared\EHR.Journey.BasicManagement.Domain.Shared.csproj" />
+        <ProjectReference Include="..\..\..\modules\DataDictionaryManagement\src\EHR.Journey.DataDictionaryManagement.Domain.Shared\EHR.Journey.DataDictionaryManagement.Domain.Shared.csproj" />
+        <ProjectReference Include="..\..\..\modules\NotificationManagement\src\EHR.Journey.NotificationManagement.Domain.Shared\EHR.Journey.NotificationManagement.Domain.Shared.csproj" />
+        <ProjectReference Include="..\..\..\modules\LanguageManagement\src\EHR.Journey.LanguageManagement.Domain.Shared\EHR.Journey.LanguageManagement.Domain.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

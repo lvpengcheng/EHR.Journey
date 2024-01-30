@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>EHR.Journey</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\modules\BasicManagement\src\EHR.Journey.BasicManagement.Application.Contracts\EHR.Journey.BasicManagement.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\..\modules\DataDictionaryManagement\src\EHR.Journey.DataDictionaryManagement.Application.Contracts\EHR.Journey.DataDictionaryManagement.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\..\modules\NotificationManagement\src\EHR.Journey.NotificationManagement.Application.Contracts\EHR.Journey.NotificationManagement.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\..\modules\LanguageManagement\src\EHR.Journey.LanguageManagement.Application.Contracts\EHR.Journey.LanguageManagement.Application.Contracts.csproj" />
+        <ProjectReference Include="..\EHR.Journey.Domain.Shared\EHR.Journey.Domain.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.ObjectExtending" />
+    </ItemGroup>
+
+
+</Project>

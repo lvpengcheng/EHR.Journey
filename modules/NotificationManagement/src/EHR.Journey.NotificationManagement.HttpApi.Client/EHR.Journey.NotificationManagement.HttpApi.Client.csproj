@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+ 
+
+  <PropertyGroup>
+	  <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey.NotificationManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Http.Client" />
+    <ProjectReference Include="..\EHR.Journey.NotificationManagement.Application.Contracts\EHR.Journey.NotificationManagement.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

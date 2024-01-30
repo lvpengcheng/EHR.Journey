@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FDD.OpenAPI.SDKModels.ReviseTask
+{
+   public class CreateReviseTaskResponse
+    {
+        public string taskId { get; set; }
+        public List<TaskFiles> taskFiles { get; set; }
+        public class TaskFiles
+        {
+            public string fileId { get; set; }
+        }
+    }
+}

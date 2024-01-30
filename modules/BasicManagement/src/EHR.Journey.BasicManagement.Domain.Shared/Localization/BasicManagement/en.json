@@ -1,0 +1,23 @@
+{
+  "culture": "en",
+  "texts": {
+    "MyAccount":  "My account",
+    "SamplePageMessage": "A sample page for the BasicManagement module",
+    "Permission:Query": "Query",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Permission:Export": "Export",
+    "Permission:Enable": "Enable|Disable",
+    "Permission:SystemManagement": "SystemManagement",
+    "Permission:AuditLogManagement": "AuditLog",
+    "Permission:HangfireManagement": "BackgroundTask",
+    "Permission:SettingManagement": "SettingManagement",
+    "Permission:IdentitySecurityLog": "IdentitySecurityLog",
+    "Permission:OrganizationUnitManagement": "OrganizationUnitManagement",
+    "Setting.Group.System": "System",
+    "EHR.Journey.BasicManagement:100001": "OrganizationUnit Not Exist",
+    "EHR.Journey.BasicManagement:100002": "UserLockedOut",
+    "EHR.Journey.BasicManagement:100003": "UserOrPasswordMismatch"
+  }
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey.DataDictionaryManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" />
+    <PackageReference Include="Volo.Abp.Authorization" />
+    <ProjectReference Include="..\EHR.Journey.DataDictionaryManagement.Domain.Shared\EHR.Journey.DataDictionaryManagement.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

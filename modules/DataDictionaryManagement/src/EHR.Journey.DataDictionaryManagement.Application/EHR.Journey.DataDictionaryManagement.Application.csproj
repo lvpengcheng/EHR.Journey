@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey.DataDictionaryManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" />
+    <ProjectReference Include="..\EHR.Journey.DataDictionaryManagement.Application.Contracts\EHR.Journey.DataDictionaryManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\EHR.Journey.DataDictionaryManagement.Domain\EHR.Journey.DataDictionaryManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

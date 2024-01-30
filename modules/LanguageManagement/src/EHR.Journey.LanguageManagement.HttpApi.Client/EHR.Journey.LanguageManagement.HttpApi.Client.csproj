@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+    <PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>EHR.Journey.LanguageManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Http.Client" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\EHR.Journey.LanguageManagement.Application.Contracts\EHR.Journey.LanguageManagement.Application.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

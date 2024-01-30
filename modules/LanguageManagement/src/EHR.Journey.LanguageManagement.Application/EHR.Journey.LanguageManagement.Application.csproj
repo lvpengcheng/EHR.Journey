@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey.LanguageManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" />
+    <ProjectReference Include="..\EHR.Journey.LanguageManagement.Application.Contracts\EHR.Journey.LanguageManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\EHR.Journey.LanguageManagement.Domain\EHR.Journey.LanguageManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

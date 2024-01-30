@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>EHR.Journey.NotificationManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Ddd.Domain" />
+     
+        <ProjectReference Include="..\EHR.Journey.NotificationManagement.Domain.Shared\EHR.Journey.NotificationManagement.Domain.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

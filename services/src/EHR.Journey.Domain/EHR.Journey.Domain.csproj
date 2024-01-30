@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\modules\BasicManagement\src\EHR.Journey.BasicManagement.Domain\EHR.Journey.BasicManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\..\modules\DataDictionaryManagement\src\EHR.Journey.DataDictionaryManagement.Domain\EHR.Journey.DataDictionaryManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\..\modules\NotificationManagement\src\EHR.Journey.NotificationManagement.Domain\EHR.Journey.NotificationManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\..\modules\LanguageManagement\src\EHR.Journey.LanguageManagement.Domain\EHR.Journey.LanguageManagement.Domain.csproj" />
+    <ProjectReference Include="..\EHR.Journey.Domain.Shared\EHR.Journey.Domain.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Emailing" />
+  </ItemGroup>
+
+
+</Project>

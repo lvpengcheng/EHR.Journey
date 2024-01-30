@@ -1,0 +1,14 @@
+{
+  "culture": "en",
+  "texts": {
+    "ManageYourProfile":  "Manage your profile",
+    "SamplePageMessage": "A sample page for the NotificationManagement module",
+    "EHR.Journey.NotificationManagement:100001": "Receiver Not Null",
+    "EHR.Journey.NotificationManagement:100002": "Message Not Exist",
+    "EHR.Journey.NotificationManagement:100003": "MessageType Unknown",
+    "EHR.Journey.NotificationManagement:100004": "User UnSubscription",
+    "EHR.Journey.NotificationManagement:100005": "Message Title NotNull",
+    "EHR.Journey.NotificationManagement:100006": "Message Content NotNull",
+    "EHR.Journey.NotificationManagement:100007": "Message Receiver NotNull"
+  }
+}

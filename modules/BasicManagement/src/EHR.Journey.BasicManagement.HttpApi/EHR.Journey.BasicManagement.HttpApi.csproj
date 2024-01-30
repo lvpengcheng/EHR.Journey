@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EHR.Journey.BasicManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
+    <ProjectReference Include="..\EHR.Journey.BasicManagement.Application.Contracts\EHR.Journey.BasicManagement.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+{
+  "culture": "en",
+  "texts": {
+    "ManageYourProfile":  "Manage your profile",
+    "SamplePageMessage": "A sample page for the DataDictionaryManagement module",
+    "Permission:DataDictionaryManagement": "DataDictionaryManagement",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    
+    "EHR.Journey.DataDictionaryManagement:100001": "DataDictionary Exist",
+    "EHR.Journey.DataDictionaryManagement:100002": "DataDictionary Not Exist",
+    "EHR.Journey.DataDictionaryManagement:100003": "DataDictionaryDetail Exist",
+    "EHR.Journey.DataDictionaryManagement:100004": "DataDictionaryDetail Not Exist"
+    
+  }
+}
