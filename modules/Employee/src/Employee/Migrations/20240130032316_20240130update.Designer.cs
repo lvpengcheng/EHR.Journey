@@ -3,6 +3,7 @@ using System;
 using Employee;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Volo.Abp.EntityFrameworkCore;
 
@@ -11,9 +12,11 @@ using Volo.Abp.EntityFrameworkCore;
 namespace Employee.Migrations
 {
     [DbContext(typeof(EmployeeDbcontext))]
-    partial class EmployeeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240130032316_20240130update")]
+    partial class _20240130update
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

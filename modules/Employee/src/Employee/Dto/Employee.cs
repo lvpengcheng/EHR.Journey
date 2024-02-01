@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    public class Employee : BaseEntity<Employee>
+    public class Employee : BaseEntity<Employee>,IExtensionData
     {
         public string? Name { get; set; }
+        public string? ExtensionData { get; set; }
     }
     public class EmployeeInput : BaseInput
     {
         public string? Name { get; set; }
+        public string? ExtensionData { get; set; }
     }
 }
