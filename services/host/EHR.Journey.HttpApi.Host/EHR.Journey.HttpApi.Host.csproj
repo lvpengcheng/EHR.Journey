@@ -6,6 +6,7 @@
         <RootNamespace>EHR.Journey</RootNamespace>
         <PreserveCompilationReferences>true</PreserveCompilationReferences>
         <UserSecretsId>EHR.Journey-4681b4fd-151f-4221-84a4-929d86723e4c</UserSecretsId>
+		<InvariantGlobalization>true</InvariantGlobalization>
     </PropertyGroup>
 
     <ItemGroup>
