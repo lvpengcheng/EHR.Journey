@@ -75,6 +75,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Include="Dockerfile" />
+      <EmbeddedResource Include="Dockerfile">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
     </ItemGroup>
 </Project>
