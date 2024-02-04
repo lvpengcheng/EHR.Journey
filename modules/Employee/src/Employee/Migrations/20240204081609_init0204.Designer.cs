@@ -12,8 +12,8 @@ using Volo.Abp.EntityFrameworkCore;
 namespace Employee.Migrations
 {
     [DbContext(typeof(EmployeeDbcontext))]
-    [Migration("20240104065406_init")]
-    partial class init
+    [Migration("20240204081609_init0204")]
+    partial class init0204
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,6 +28,9 @@ namespace Employee.Migrations
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("char(36)");
+
+                    b.Property<string>("ExtensionData")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Name")
                         .HasColumnType("longtext");

@@ -101,7 +101,7 @@ namespace Employee
             });
 
 
-            var connectionString = configuration.GetConnectionString("Onboarding");
+            var connectionString = configuration.GetConnectionString("Default");
             var freeSql = new FreeSql.FreeSqlBuilder()
                 .UseConnectionString(FreeSql.DataType.MySql, connectionString)
                 .Build();

@@ -11,7 +11,7 @@ using Volo.Abp.EntityFrameworkCore;
 namespace Employee.Migrations
 {
     [DbContext(typeof(EmployeeDbcontext))]
-    partial class EmployeeDbContextModelSnapshot : ModelSnapshot
+    partial class EmployeeDbcontextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

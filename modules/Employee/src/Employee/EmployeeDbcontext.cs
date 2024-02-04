@@ -12,7 +12,7 @@ using Volo.Abp.Data;
 
 namespace Employee
 {
-    //[ConnectionStringName("Onboarding")]
+    [ConnectionStringName("Default")]
     public class EmployeeDbcontext : BaseDbContext<EmployeeDbcontext>
     {
         public DbSet<Employee> Employees { get; set; }

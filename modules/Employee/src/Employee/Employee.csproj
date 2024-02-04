@@ -24,4 +24,8 @@
     <ProjectReference Include="..\..\..\..\services\src\EHR.Journey.Domain\EHR.Journey.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

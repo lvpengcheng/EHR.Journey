@@ -12,8 +12,8 @@ using Volo.Abp.EntityFrameworkCore;
 namespace Employee.Migrations
 {
     [DbContext(typeof(EmployeeDbcontext))]
-    [Migration("20240130032316_20240130update")]
-    partial class _20240130update
+    [Migration("20240202063651_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
